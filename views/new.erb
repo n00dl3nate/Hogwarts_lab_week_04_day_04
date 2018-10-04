@@ -1,0 +1,23 @@
+<h1> Add student details </h1>
+
+<form action="/hogwarts" method="POST">
+  <label for="first-name-field">First name</label>
+  <input type="text" name="first_name" id="first-name-field">
+
+  <label for="last-name-field">Last name</label>
+  <input type="text" name="last_name" id="last-name-field">
+
+  <label for="house-field">House</label>
+  <select name="house_id" id="house-field">
+    <option value="17" >Gryffindor</option>
+    <option value="18" >Slytherin</option>
+    <option value="19" >Hufflepuff</option>
+    <option value="20" >Ravenclaw</option>
+  </select>
+
+  <label for="age-field">Age</label>
+  <input type="number" name="age" min="8" max="30" id="age-field">
+
+  <input type="submit" value="enroll">
+
+</form>
